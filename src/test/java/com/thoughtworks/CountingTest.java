@@ -40,4 +40,11 @@ public class CountingTest {
 
     Assert.assertEquals(result, "FizzWhizz");
   }
+
+  @Test
+  public void should_say_BuzzWhizz_when_counting_given_number_can_be_divided_by_5_and_7(){
+    String result = counting.number(35);
+
+    Assert.assertEquals(result, "BuzzWhizz");
+  }
 }
