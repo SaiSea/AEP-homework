@@ -12,4 +12,11 @@ public class CountingTest {
 
     Assert.assertEquals(result, "Fizz");
   }
+
+  @Test
+  public void should_say_Buzz_when_counting_given_number_can_be_divided_by_5(){
+    String result = counting.number(5);
+
+    Assert.assertEquals(result, "Buzz");
+  }
 }
