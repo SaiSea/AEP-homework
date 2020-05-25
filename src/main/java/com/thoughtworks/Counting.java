@@ -17,6 +17,6 @@ public class Counting {
     } else if (num % 7 == 0) {
       return "Whizz";
     }
-    return "";
+    return String.valueOf(num);
   }
 }

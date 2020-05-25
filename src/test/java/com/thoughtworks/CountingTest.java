@@ -54,4 +54,11 @@ public class CountingTest {
 
     Assert.assertEquals(result, "FizzBuzzWhizz");
   }
+
+  @Test
+  public void should_say_the_value_of_num_when_counting_given_number_can_not_be_divided_by_3_5_and_7(){
+    String result = counting.number(8);
+
+    Assert.assertEquals(result, "8");
+  }
 }
