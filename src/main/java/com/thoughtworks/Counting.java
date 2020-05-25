@@ -2,6 +2,9 @@ package com.thoughtworks;
 
 public class Counting {
   public String number(int num) {
-    return "Fizz";
+    if (num % 3 == 0) {
+      return "Fizz";
+    }
+    return "";
   }
 }
