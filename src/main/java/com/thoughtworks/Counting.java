@@ -2,7 +2,9 @@ package com.thoughtworks;
 
 public class Counting {
   public String number(int num) {
-    if (num % 35 == 0) {
+    if (num % 105 == 0) {
+      return "FizzBuzzWhizz";
+    } else if (num % 35 == 0) {
       return "BuzzWhizz";
     } else if (num % 21 == 0) {
       return "FizzWhizz";
