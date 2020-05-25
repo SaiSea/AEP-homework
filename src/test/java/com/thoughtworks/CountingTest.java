@@ -19,4 +19,11 @@ public class CountingTest {
 
     Assert.assertEquals(result, "Buzz");
   }
+
+  @Test
+  public void should_say_Whizz_when_counting_given_number_can_be_divided_by_7(){
+    String result = counting.number(7);
+
+    Assert.assertEquals(result, "Whizz");
+  }
 }
